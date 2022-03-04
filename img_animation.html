@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Animation</title>
+    <style>
+        div{
+            text-align: center;
+            text-transform: uppercase;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            
+             }
+         .imageanime {
+            
+            position: relative;
+            animation: myfirst 5s 2;
+            animation-direction: alternate;
+}
+
+        @keyframes myfirst {
+            0%   { left: 0px; top: 0px;}
+            25%  { left: 700px; top: 0px;}
+            50%  { left: 700px; top: 200px;}
+            75%  {left: 0px; top: 200px;}
+            100% { left: 0px; top: 0px;}
+}
+
+
+    </style>
+</head>
+<body>
+    <div><h1>Error 404</h1></div>
+    <img src="img_animation.png" class="imageanime" alt="404 image" style="width: 700px;">
+    
+</body>
+</html>
